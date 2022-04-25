@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Web\\PruebaNexos.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Core\\PruebaNexos.Core.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Core\\PruebaNexos.Core.csproj",
+        "projectName": "PruebaNexos.Core",
+        "projectPath": "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Core\\PruebaNexos.Core.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Data\\PruebaNexos.Data.csproj": {
+                "projectPath": "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Data\\PruebaNexos.Data.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Data\\PruebaNexos.Data.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Data\\PruebaNexos.Data.csproj",
+        "projectName": "PruebaNexos.Data",
+        "projectPath": "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Data\\PruebaNexos.Data.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Web\\PruebaNexos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Web\\PruebaNexos.csproj",
+        "projectName": "PruebaNexos",
+        "projectPath": "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Web\\PruebaNexos.csproj",
+        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Core\\PruebaNexos.Core.csproj": {
+                "projectPath": "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Core\\PruebaNexos.Core.csproj"
+              },
+              "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Data\\PruebaNexos.Data.csproj": {
+                "projectPath": "C:\\Users\\jorge\\source\\repos\\PruebaNexos\\PruebaNexos.Data\\PruebaNexos.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

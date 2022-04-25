@@ -1,0 +1,40 @@
+﻿<!--Modal Crear autor-->
+<div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="createModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <form id="formCreateAutor">
+                <div class="modal-header">
+                    <h5 class="modal-title letra">Crear Autor</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="id" name="id">
+                    <div class="col-md-6">
+                        <label for="nombre" class="form-label"><strong>NOMBRE</strong></label>
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="nombre">
+                    </div>
+                    <br />
+                    <div class="col-md-6">
+                        <label for="fechanaci" class="form-label"><strong>FECHANACI</strong></label>
+                        <input type="text" class="form-control" id="fechanaci" name="fechanaci" placeholder="DD/MM/YYYY">
+                    </div>
+                    <br />
+                    <div class="col-md-6">
+                        <label for="ciudad" class="form-label"><strong>CIUDAD</strong></label>
+                        <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="ciudad">
+                    </div>
+                    <br />
+                    <div class="col-12">
+                        <label for="correo" class="form-label"><strong>CORREO</strong></label>
+                        <input type="email" class="form-control" id="correo" name="correo" placeholder="autor@logyca.com">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onclick="cerrarmodal()" class="btn btn-primary" >Cerrar</button>
+                    <button type="button" onclick="crearautor(event, this)" id="btn_create" class="btn btn-success">Crear Usuario</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

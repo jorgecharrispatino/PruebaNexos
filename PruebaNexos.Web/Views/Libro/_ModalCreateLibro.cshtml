@@ -1,0 +1,44 @@
+﻿<!--Modal Crear Libro-->
+<div class="modal fade" id="createModalLibro" tabindex="-1" aria-labelledby="createModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <form id="formCreateAutor">
+                <div class="modal-header">
+                    <h5 class="modal-title letra">Crear Libro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="id" name="id">
+                    <div class="col-md-6">
+                        <label for="titulo" class="form-label"><strong>Titulo</strong></label>
+                        <input type="text" class="form-control" id="titulo" name="titulo" placeholder="titulo">
+                    </div>
+                    <br />
+                    <div class="col-md-6">
+                        <label for="ano" class="form-label"><strong>Año</strong></label>
+                        <input type="text" class="form-control" id="ano" name="ano" placeholder="YYYY">
+                    </div>
+                    <br />
+                    <div class="col-md-6">
+                        <label for="genero" class="form-label"><strong>Genero</strong></label>
+                        <input type="text" class="form-control" id="genero" name="genero" placeholder="genero">
+                    </div>
+                    <br />
+                    <div class="col-md-6">
+                        <label for="numpag" class="form-label"><strong>Numero de Paginas</strong></label>
+                        <input type="text" class="form-control" id="numpag" name="numpag" placeholder="Numero de Paginas">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="autor" class="form-label"><strong>Autor</strong></label>
+                        <input type="text" class="form-control" id="autor" name="autor" placeholder="nombre autor">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onclick="cerrarmodal()" class="btn btn-primary" >Cerrar</button>
+                    <button type="button" onclick="crearlibro(event, this)" id="btn_create" class="btn btn-success">Crear Libro</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+﻿<!-- Modal Editar autor-->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <form id="formEditAutor">
+                <div class="modal-header">
+                    <h5 class="modal-title letra">Editar Autor</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="IDAUTOR" name="IDAUTOR">
+                    <div class="col-md-6">
+                        <label for="NOMBRE" class="form-label"><strong>NOMBRE</strong></label>
+                        <input type="text" class="form-control" id="NOMBRE" name="NOMBRE" placeholder="nombre">
+                    </div>
+                    <br />
+                    <div class="col-md-6">
+                        <label for="FECHANACI" class="form-label"><strong>FECHANACI</strong></label>
+                        <input type="text" class="form-control" id="FECHANACI" name="FECHANACI" placeholder="fecha de nacimiento">
+                    </div>
+                    <br />
+                    <div class="col-md-6">
+                        <label for="CIUDAD" class="form-label"><strong>CIUDAD</strong></label>
+                        <input type="text" class="form-control" id="CIUDAD" name="CIUDAD" placeholder="ciudad">
+                    </div>
+                    <br />
+                    <div class="col-12">
+                        <label for="CORREO" class="form-label"><strong>CORREO</strong></label>
+                        <input type="email" class="form-control" id="CORREO" name="CORREO" placeholder="usuario@logyca.com">
+                    </div>
+                    <br />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" id="btn_edit" onclick="limpiarFormulario()" class="btn btn-success">
+                        Editar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
